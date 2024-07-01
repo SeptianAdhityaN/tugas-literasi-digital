@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artikel | Literasi Digital</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body class="">
+  <!-- NAVBAR -->
+  <nav class="p-5 bg-black shadow md:inline md:flex md:items-center md:justify-between">
+    <div class="flex justify-between md:mx-24 mx-2">
+      <span class="md:text-4xl text-2xl font-bold text-yellow-600">Asep<span class="text-white text-2xl">.</span></span>
+
+      <span class="text-white mx-2 text-3xl cursor-pointer md:hidden block">
+        <ion-icon name="menu-outline" onclick="Menu(this)"></ion-icon>
+      </span>
+    </div>
+
+    <ul class="md:flex md:items-center z-[1] md:z-auto md:static absolute bg-black w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">  
+      <li class="mx-4 my-6 md:my-0">
+        <a name="home" href="#Home" class="text-xl text-gray-300 hover:text-gray-400/75 duration-500">Beranda</a>
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a name="about" href="#About" class="text-xl text-gray-300 hover:text-gray-400/75 duration-500">Tentang Saya</a>
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a name="hoby" href="#Hoby" class="text-xl text-gray-300 hover:text-gray-400/75 duration-500">Hobi</a>
+      </li>
+      <li class="hidden md:block mx-4 my-6 md:my-0">
+        <a name="artikel" href="#Content-1" class="text-xl text-gray-300 hover:text-gray-400/75 duration-500">Artikel</a>
+      </li>
+      <li class="md:hidden mx-4 my-6 md:my-0">
+        <details class="group [&_summary::-webkit-details-marker]:hidden">
+          <summary
+            class="flex cursor-pointer items-center justify-between rounded-lg text-gray-300 hover:text-gray-400/75"
+          >
+            <span class="text-xl text-gray-300 hover:text-gray-300/75 duration-500">Artikel</span>
+
+            <span class="shrink-0 transition duration-300 group-open:-rotate-180">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </span>
+          </summary>
+
+          <ul class="mt-2 space-y-1 px-4">
+            <li class="mx-4 my-6 md:my-0">
+              <a name="content-1"
+                href="#Content-1"
+                class="text-md text-gray-300 hover:text-gray-400/75 duration-500"
+              >
+                Cara Download dan Install Miscrosoft Office 2021 menggunakan CMD
+              </a>
+            </li>
+
+            <li class="mx-4 my-6 md:my-0">
+              <a name="content-2"
+                href="#Content-2"
+                class="text-md text-gray-300 hover:text-gray-400/75 duration-500"
+              >
+                Perbedaan OS WIndows dan OS Linux   
+              </a>
+            </li>
+          </ul>
+        </details>
+      </li>
+
+      <button class="text-xl text-white bg-yellow-600 hover:bg-yellow-800 rounded duration-500 px-6 py-2 mx-4 my-4">
+        <a href="https://www.instagram.com/septianadhty?igsh=MTR6NXgxbjJxaGNw">Kontak</a>
+      </button>
+    </ul>
+  </nav>
+  <!-- NAVBAR END -->
+
+  <!-- MAIN -->
+<header
+class="relative bg-[url(https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-center bg-no-repeat"
+id="Home"
+>
+<div class="bg bg-gradient-to-t from-yellow-700 to-100%">
+
+<div
+  class="absolute inset-0"
+></div>
+
+<div
+  class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+>
+  <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+    <h1 class="text-3xl font-extrabold sm:text-5xl text-white">
+      Halo, aku
+
+      <strong class="block font-extrabold text-yellow-500"> Asep<span class="text-white">.</span> </strong>
+    </h1>
+
+    <p class="mt-4 max-w-lg sm:text-xl/relaxe text-white">
+    Web ini adalah tugas mata kuliah Literasi Digital dengan dosen pengampu Bu Ghea Palupi. Disini aku mau sharing sedikit ilmu yang ku ketahui setelah masuk Teknik Informatika.
+    </p>
+
+    <div class="mt-8 flex flex-wrap gap-4 text-center px-20">
+      <a
+        href="#About"
+        class="block w-full rounded bg-yellow-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-yellow-700 focus:outline-none focus:ring active:bg-yellow-500 sm:w-auto"
+      >
+        Tentang Saya
+      </a>
+
+      <a
+        href="#Content-1"
+        class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-yellow-500 shadow hover:text-yellow-600 focus:outline-none focus:ring active:text-yellow-500 sm:w-auto"
+      >
+        Artikel
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+</header>
+  <!-- MAIN END -->
+
+  <!-- ABOUT -->
+  <section class="overflow-hidden bg-gradient-to-t from-yellow-950 from-5% to-yellow-700 to-10 sm:grid sm:grid-cols-2" id="About">
+    <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+      <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+        <h2 class="text-2xl font-bold text-gray-100 md:text-3xl">
+          Sedikit tentang saya
+        </h2>
+  
+        <p class="text-gray-200 md:mt-4 md:block py-4">
+          Perkenalkan namaku Septian Adhitya Nugroho, panggil aja Asep ^^ Aku adalah mahasiswa aktif di Universitas Negeri Surabaya yang sedang menempuh program studi S1 Teknik Informatika.
+        </p>
+        
+        <p class="text-gray-200 md:mt-4 md:block py-2">
+        Saat menjadi mahasiwa baru disini, aku sering dijuluki sebagai "Obito" karena aku sering memakai topeng "Tobi" saat berada di kampus. Selain itu, aku juga menampilkan bahwa diriku ini seperti "Sadboy" layaknya Obito yang ditinggal kekasihnya. Aslinya sih ga ada kata "sad", itu semua cuma gimick aja mwehe :p
+        </p>
+
+        <p class="text-gray-200 md:mt-4 md:block py-2">
+          Aku juga punya hobi coret-coret kertas. klik aja kalau mau lihat ^^
+        </p>
+  
+        <div class="mt-4 md:mt-8">
+          <a
+            href="#Hoby"
+            class="inline-block rounded bg-yellow-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-yellow-700 focus:outline-none focus:ring focus:ring-yellow-400"
+          >
+            Coretan Tangan
+          </a>
+        </div>
+      </div>
+    </div>
+  
+    <img
+      alt=""
+      src="img/profile.jpg"
+      class="h-81 rounded-full mx-auto py-4 w-auto object-cover sm:h-full"
+    />
+  </section>
+  <!-- ABOUT END -->
+
+  <!-- HOBY -->
+  <section id="Hoby" class="md:bg-gradient-to-b md:from-yellow-950 md:to-5%">
+    <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+      <header class="text-center">
+        <h2 class="text-xl font-bold text-gray-900 sm:text-3xl">Coretan Tangan</h2>
+  
+        <p class="mx-auto mt-4 max-w-md text-gray-500">
+        Ini adalah beberapa coretan tanganku. Selengkapnya ada di Highlight Instagram ku yhh @septianadhty ^^
+        </p>
+      </header>
+  
+      <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <li>
+          <a href="#Hoby" class="group block overflow-hidden">
+            <img
+              src="img/coretan1.jpg"
+              alt=""
+              class="h-[600px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+            />
+  
+            <div class="relative bg-white pt-3">
+              <h3 class="text-md font-semibold text-gray-700 group-hover:underline group-hover:underline-offset-4">
+                SALVADOR DALI
+              </h3>
+            </div>
+          </a>
+        </li>
+  
+        <li>
+          <a href="#Hoby" class="group block overflow-hidden">
+            <img
+              src="img/coretan2.jpg"
+              alt=""
+              class="h-[600px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+            />
+  
+            <div class="relative bg-white pt-3">
+              <h3 class="text-md font-semibold text-gray-700 group-hover:underline group-hover:underline-offset-4">
+                ALBERT EINSTEIN
+              </h3>
+            </div>
+          </a>
+        </li>
+  
+        <li>
+          <a href="#Hoby" class="group block overflow-hidden">
+            <img
+              src="img/coretan3.jpg"
+              alt=""
+              class="h-[600px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+            />
+  
+            <div class="relative bg-white pt-3">
+              <h3 class="text-md font-semibold text-gray-700 group-hover:underline group-hover:underline-offset-4">
+                REBECCA JUSTMINE
+              </h3>
+            </div>
+          </a>
+        </li>
+  
+        <li>
+          <a href="#Hoby" class="group block overflow-hidden">
+            <img
+              src="img/coretan4.jpg"
+              alt=""
+              class="h-[600px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+            />
+  
+            <div class="relative bg-white pt-3">
+              <h3 class="text-md font-semibold text-gray-700 group-hover:underline group-hover:underline-offset-4">
+                HAMIDAH
+              </h3>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <p class="py-8 mx-auto mt-4 max-w-6xl min-w-sm text-gray-500">
+        "Kok ga masuk DKV aja sih? kan jago gambar." banyak temanku yang bilang seperti itu. Jawabannya karena bapakku selalu menegaskan bahwa, "Jadikan menggambar hanya sebatas hobi." Maka dari itu aku mencari jurusan lain dan mulai tertarik masuk ke Teknik Informatika. Setelah aku masuk di Teknik Informatika, aku jadi tahu bahwa aku tidak tahu apa-apa. <span class="font-semibold">Oke mungkin itu saja tentang aku, lanjut ke Artikel nya ^^ <a href="#Content-1" class="text-sky-500 hover:text-sky-600">Click Here</a></span> 
+        </p>
+    </div>
+  </section>
+  <!-- HOBY END -->
+  
+  <!-- CONTENT -->
+  <section id="Content-1" class="bg-gray-50">
+    <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+      <div class="max-w-3xl">
+        <a href="content-1.html" class="text-3xl font-bold sm:text-4xl hover:underline hover:text-blue-500">
+          Cara Download dan Install Miscrosoft Office 2021 menggunakan CMD
+        </a>
+      </div>
+  
+      <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+        <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+          <img
+            alt=""
+            src="https://netcampus.co.id/wp-content/uploads/2022/02/img-pi-098-c.png"
+            class="absolute inset-0 h-full w-200 object-cover"
+          />
+        </div>
+  
+        <div class="lg:py-16">
+          <article class="space-y-4 text-gray-600">
+            <p style="text-indent: .2in;">
+              Banyak dari kalian pasti sangat membutuhkan Miscrosoft Word, Ecxel, dan Power Point untuk mengerjakan tugas sekolah, tugas kuliah bahkan untuk bekerja.
+            </p>
+  
+            <p style="text-indent: .2in;">
+              Ga sengaja hapus word? bingung cara balikin atau installnya lagi? tenang jangan khawatir. Disini saya ingin memberikan tutorial cara install Miscrosoft Office 2021 dengan mudah dan pastinya GRATIS ! untuk itu langsung saja klik judul artikel berikut supaya dapat mengakses tutorialnya, Letsgoooo !!!
+            </p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Content-2">
+    <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+        <div class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+          <img
+            alt=""
+            src="img/thumbnail-2.png"
+            class="absolute inset-0 h-full w-full object-cover"
+          />
+        </div>
+  
+        <div class="lg:py-24">
+          <a href="content-2.html" class="text-3xl font-bold sm:text-4xl hover:underline hover:text-blue-500">Perbedaan OS Windows dengan OS Linux</a>
+  
+          <p style="text-indent: .2in;" class="mt-4 text-gray-600">
+            Dalam dunia komputer, terdapat beberapa Sistem Operasi yang digunakan untuk memulai suatu sistem komputer. Dari sekian banyak sistem operasi, disini aku pengen bahas tentang kelebihan dan kekurangan antara sistem operasi Windows dan Linux.
+          </p>
+  
+          <a
+            href="content-2.html"
+            class="mt-8 inline-block rounded bg-yellow-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-yellow-700 focus:outline-none focus:ring focus:ring-yellow-400"
+          >
+            View Sites
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONTENT END -->
+
+  <!-- FOOTER -->
+<footer id="Footer" class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+  <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Copyright © 2024 <a class="hover:underline">Septian Adhitya</a>. All Rights Reserved.
+  </span>
+  <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+      <li>
+          <a href="#Home" class="hover:underline me-4 md:me-6">Beranda</a>
+      </li>
+      <li>
+          <a href="#About" class="hover:underline me-4 md:me-6">Tentang Saya</a>
+      </li>
+      <li>
+          <a href="#Hoby" class="hover:underline me-4 md:me-6">Hobi</a>
+      </li>
+      <li>
+          <a href="https://www.instagram.com/septianadhty?igsh=MTR6NXgxbjJxaGNw" class="hover:underline">Kontak</a>
+      </li>
+  </ul>
+  </div>
+</footer>
+  <!-- FOOTER END -->
+
+  <script>
+    function Menu(e){
+      let list = document.querySelector('ul');
+
+      e.name === 'menu-outline' ? (e.name = "close-outline" , list.classList.add('top-[70px]') , list.classList.add('opacity-100')) : (e.name = "menu-outline" , list.classList.remove('top-[70px]') , list.classList.remove('opacity-100'))
+    }
+  </script>
+</body>
+</html>
